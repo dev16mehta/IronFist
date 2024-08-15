@@ -6,13 +6,13 @@ the simple GUI library. It also exhibits the comprehension and application of
 important ideas covered in the course, such as collisions, the use of the Vector
 class, and many more.
 This report includes the key contents of the game, how the code works, and the
-communication, dynamics and work ethic of the group.
+communication, dynamics, and work ethic of the group.
 
 Game:
 This game was inspired by a pre-existing game:
 https://poki.com/en/g/iron-snout
 The objective of this game is to kill the enemies by jumping and punching them.
-The player is a character who has the ability to jump, punch left, and punch right.
+The player is a character who can jump, punch left, and punch right.
 The enemies fly in from multiple angles and the player has to eliminate them as
 they randomly appear. Over time in the game, the difficulty increases as the
 overall speed at which the enemies enter the screen increases which creates a
@@ -38,7 +38,7 @@ This is the game screen that is visible as soon as the start button is pressed, 
 in this screen, there is:
 - The player sprite in the center of the screen
 - The number of lives which is displayed at the top right of the screen, every
-time the game starts, the player is given 3 lives and each time the enemy
+time the game starts, the player is given 3 lives, and each time the enemy
 sprite comes in contact with the player sprite the number of lives
 decreases
 - At the top left of the screen there is the ‘score’ which increments every
