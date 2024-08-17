@@ -1,4 +1,5 @@
 REPORT By Dev Mehta
+
 Introduction:
 This report documents how the game “Iron Fist” came into existence, by using
 the simple GUI library. It also exhibits the comprehension and application of
@@ -34,14 +35,14 @@ game screen.
 Once the ‘Start’ button has been pressed it loads up the game page, which looks
 like this:
 This is the game screen that is visible as soon as the start button is pressed, and
-in this screen, there is:
+On this screen, there is:
 - The player sprite in the center of the screen
 - The number of lives which is displayed at the top right of the screen, every
 time the game starts, the player is given 3 lives, and each time the enemy
 sprite comes in contact with the player sprite the number of lives
 decreases
 - At the top left of the screen there is the ‘score’ which increments every
-second so the score will keep getting higher
+second, so the score will keep getting higher
 - In the top middle there is a ‘hits’ column which increments every time the
 player sprite hits the enemy sprite. Each time the player hits the enemy the
 ‘hits’ is reset to 0
