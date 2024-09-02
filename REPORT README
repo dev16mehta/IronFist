@@ -99,7 +99,7 @@ parameters passed to the constructor __init__. Uses super() when calling the
 constructor of the parent class.owner, offset, and radius in __init__.
 We then used a drawing technique that creates a hurtbox on a canvas. Two
 circles are shown, one reflecting the player's position in green and the other the
-hurtbox's position in blue, if self.visible is true. The hurtbox's and the player's
+hurtbox's position in blue, if self.visible is true. The hurt boxes and the player's
 positions are established by their pos characteristics.
 This is what the character looks like in-game when the circles are
 set to visible.
@@ -107,7 +107,7 @@ So when the enemy comes within the radius of the hitbox, this will
 take a life away from the player.
 Vectors were dealt with in the Ghost class.
 - The ‘self.accelerator’ is an instance variable representing the current
-acceleration of the ghost. It's initialised as a Vector object with components
+acceleration of the ghost. It's initialized as a Vector object with components
 (0, 0) indicating no acceleration in either the x or y direction.
 - The self.accel: Another instance variable representing the acceleration that
 will be added to self.accelerator each time step. It's initialised with a value
